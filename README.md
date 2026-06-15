@@ -1,4 +1,4 @@
-# 🫧 Python Bubble Shooter
+#  Python Bubble Shooter
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Pygame-2.x-green?style=flat-square)
@@ -11,7 +11,7 @@ A classic **Bubble Shooter arcade game** built entirely in Python using the Pyga
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Rotatable arrow launcher** — Use the left/right arrow keys to aim precisely before shooting.
 - **Colour-matching pop mechanic** — Match 3 or more adjacent bubbles of the same colour to clear them, with a satisfying pop sound effect.
@@ -26,7 +26,7 @@ A classic **Bubble Shooter arcade game** built entirely in Python using the Pyga
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 The game follows a straightforward **object-oriented + procedural hybrid** design, organised around a central game loop.
 
@@ -75,7 +75,7 @@ The game follows a straightforward **object-oriented + procedural hybrid** desig
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -88,7 +88,7 @@ The game follows a straightforward **object-oriented + procedural hybrid** desig
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before running the game, make sure you have the following installed:
 
@@ -106,7 +106,7 @@ python3 --version
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Clone the repository
 
@@ -138,7 +138,7 @@ pip install pygame
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 The game has no external config file. All tunable constants live at the top of `bubbleshooter.py`:
 
@@ -157,7 +157,7 @@ To change any of these, open `bubbleshooter.py` in your editor and modify the va
 
 ---
 
-## 💻 Running the Application
+##  Running the Application
 
 Make sure you are in the project directory and your virtual environment (if used) is active, then run:
 
@@ -169,7 +169,7 @@ The game window (940 × 740 px) will open immediately and background music will 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Python-Bubble-Shooter-game/
@@ -192,7 +192,7 @@ All assets (images, audio) must remain in the **same directory** as `bubbleshoot
 
 ---
 
-## 🎮 Usage
+##  Usage
 
 ### Controls
 
@@ -224,7 +224,7 @@ Floater bonus       =  10 points per floater removed
 
 ---
 
-## 🧩 Code Deep-Dive
+##  Code Deep-Dive
 
 ### Bubble movement (angle-based)
 
@@ -265,7 +265,7 @@ The board uses a **staggered hex grid** — odd rows are offset by half a bubble
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 There is no automated test suite in the current codebase. To manually verify behaviour:
 
@@ -282,7 +282,7 @@ To add automated tests in the future, consider extracting the pure logic functio
 
 ---
 
-## 🚢 Deployment
+##  Deployment
 
 This is a **desktop application** — distribution options include:
 
@@ -315,7 +315,7 @@ Similar to PyInstaller but may produce smaller or faster binaries for specific p
 
 ---
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 As a local desktop game with no networking, server, or user-data storage, the security surface is minimal:
 
@@ -341,7 +341,7 @@ Useful events to log: bubble placement (row/col), pop counts, colour pool update
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 Potential enhancements for future versions:
 
@@ -357,7 +357,7 @@ Potential enhancements for future versions:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how to get involved:
 
@@ -381,7 +381,7 @@ Please keep PRs focused — one feature or fix per PR makes review much faster.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** — you are free to use, modify, and distribute this software, provided the original copyright notice is retained.
 
@@ -389,7 +389,7 @@ See [LICENSE](LICENSE) for the full text.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Repository:** [github.com/luccy93/Python-Bubble-Shooter-game](https://github.com/luccy93/Python-Bubble-Shooter-game)
 
